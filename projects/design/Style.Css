@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+#cardwrapper {
+    width: 90%;
+
+    margin: 50px auto;
+    background-color: #f7f7f7;
+    border: 1px solid beige;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+#section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content {
+
+    display: inline-block;
+    padding: 10px;
+    font-weight: bolder;
+
+
+
+
+}
+
+.loginbtn {
+    width: 50px;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 40px 40px 5px 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+
+}
+
+.left {
+    width: 50%;
+
+    font-size: 50px;
+    position: relative;
+    z-index: 2;
+margin-right: 150px;
+
+}
+.text1{
+    font-weight: bolder;
+}
+.shape {
+    position: absolute;
+    left: 110px;
+    top: 100px;
+    width: 50px;
+    height: 50px;
+    border: none;
+
+    border-radius: 50px 50px 50px 0px;
+    background-color: rgb(179, 120, 120);
+    z-index: -1;
+
+}
+.right {
+    width: 23%;
+    background-color: rgb(201, 222, 235);
+    border-radius: 50% 50% 0% 50%;
+
+
+    z-index: 1;
+
+    position: relative;
+overflow: hidden;
+
+}
+
+.wrapper-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+width: 90%;
+}
+
+.text1 {
+    padding-left: 60px;
+    font-size: 60;
+}
+
+.SearchBar {
+    height: 50px;
+
+}
+
+.SearchBar>input {
+    height: 50px;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    background-color: #dce3f3;
+
+
+}
+
+.PopularSubject {
+    font-size: 23px;
+    margin-left: 0;
+    padding-left: 20px;
+
+
+}
+
+.ri-search-line {
+    margin-left: -40px;
+    padding-top: 10px;
+    font-size: 40px;
+
+}
+
+.cardWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding-left: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    color: gold;
+    flex-wrap: wrap;
+    font-size: 25px;
+    background-color: rgb(190, 215, 230);
+    margin: 0;
+    padding: 15px;
+    width: 30%;
+    height: 100px;
+    border-radius: 0px 50px 50px 50px;
+
+}
+
+.top1 {
+    color: black;
+    font-size: 35px;
+    background-color: rgb(206, 196, 233);
+    border-radius: 0px 50px 50px 50px;
+    width: 30%;
+    height: 100px;
+    /* padding: 25px; */
+    margin: 0;
+    padding: 25px;
+    color: rgb(122, 108, 161);
+}
+
+.top2 {
+    color: black;
+    font-size: 35px;
+    background-color: rgb(186, 221, 188);
+    border-radius: 0px 50px 50px 50px;
+    width: 30%;
+    color: rgb(13, 124, 72);
+    height: 100px;
+    padding: 25px;
+    margin: 0;
+}
+
+.one {
+    position: relative;
+    left: 65px;
+}
+
+.wrapper {
+    width: 30%;
+
+    margin: 5px;
+    background-color: #eadec6;
+    border-radius: 10px;
+
+}
+
+.wrapper2 {
+    width: 30%;
+    margin: 5px;
+    background-color: #dce3f3;
+    border-radius: 10px;
+
+}
+
+.wrapper3 {
+    width: 30%;
+    margin: 5px;
+    border-radius: 10px;
+
+    background-color: rgb(222 238 227);
+}
+
+.Maths {
+    font-size: 32px;
+    padding-top: 70px;
+
+}
+
+.last {
+    font-size: 32px;
+    padding-top: 30px;
+    color: rgb(122, 108, 161);
+
+}
+
+.last2 {
+    font-size: 32px;
+    padding-top: 30px;
+    color: rgb(79, 57, 221);
+
+}
+
+.last3 {
+    font-size: 32px;
+    padding-top: 30px;
+    color: rgb(76, 219, 66);
+    ;
+
+
+}
+
+#first {
+    color: aqua;
+    font-size: 32px;
+    position: absolute;
+    left: 2px;
+    top: 20px;
+}
+
+#second {
+    color: orange;
+    font-size: 32px;
+    position: absolute;
+    left: 370px;
+    top: 30px;
+}
+
+#third {
+    color: yellow;
+    font-size: 32px;
+    position: absolute;
+    left: 70px;
+    top: 250px;
+}
+
+#four {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    z-index: ;
+
+
+    border-radius: 50%;
+
+    position: absolute;
+    left: 122px;
+    top: 200px;
+
+}
+
+#five {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    left: 150px;
+    top: 230px;
+    z-index: 1;
+
+}
